@@ -1,0 +1,114 @@
+/* Reset some basic styles */
+body, h1, h2, h3, h4, h5, h6, p, form, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 79vh;
+  background-color: #f0f4eb;
+  margin-bottom: 5px;
+}
+
+.login-page.white-theme {
+  background-color: #ffffff; /* White background for white theme */
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #729762;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #5c7a4e;
+}
+
+.error {
+  border-color: #ff6347;
+}
+
+.error-message {
+  color: #ff6347;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.theme-toggle-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.theme-toggle-button:hover {
+  background-color: #555;
+}
+
+/* Green Theme Styles */
+.login-page.green-theme .login-container {
+  background-color: #ffffff;
+}
+
+.login-page.green-theme button {
+  background-color: #729762;
+}
+
+.login-page.green-theme button:hover {
+  background-color: #5c7a4e;
+}
