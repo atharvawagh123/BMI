@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d22d2ad2.css",
-    "main.js": "/static/js/main.b475ac82.js",
-    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
-    "static/js/213.9873d119.chunk.js": "/static/js/213.9873d119.chunk.js",
-    "static/js/732.8b626db9.chunk.js": "/static/js/732.8b626db9.chunk.js",
-    "static/media/box.png": "/static/media/box.983fbf7ce40ce1f27911.png",
-    "static/media/ab.png": "/static/media/ab.74c8fbe0e17ecec59e28.png",
-    "static/media/over.jpg": "/static/media/over.3c3b56355237261a175f.jpg",
-    "index.html": "/index.html",
-    "main.d22d2ad2.css.map": "/static/css/main.d22d2ad2.css.map",
-    "main.b475ac82.js.map": "/static/js/main.b475ac82.js.map",
-    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map",
-    "213.9873d119.chunk.js.map": "/static/js/213.9873d119.chunk.js.map",
-    "732.8b626db9.chunk.js.map": "/static/js/732.8b626db9.chunk.js.map"
+    "main.css": "/BMI/static/css/main.d22d2ad2.css",
+    "main.js": "/BMI/static/js/main.03064c60.js",
+    "static/js/453.68693753.chunk.js": "/BMI/static/js/453.68693753.chunk.js",
+    "static/js/213.9873d119.chunk.js": "/BMI/static/js/213.9873d119.chunk.js",
+    "static/js/732.8b626db9.chunk.js": "/BMI/static/js/732.8b626db9.chunk.js",
+    "static/media/box.png": "/BMI/static/media/box.983fbf7ce40ce1f27911.png",
+    "static/media/ab.png": "/BMI/static/media/ab.74c8fbe0e17ecec59e28.png",
+    "static/media/over.jpg": "/BMI/static/media/over.3c3b56355237261a175f.jpg",
+    "index.html": "/BMI/index.html",
+    "main.d22d2ad2.css.map": "/BMI/static/css/main.d22d2ad2.css.map",
+    "main.03064c60.js.map": "/BMI/static/js/main.03064c60.js.map",
+    "453.68693753.chunk.js.map": "/BMI/static/js/453.68693753.chunk.js.map",
+    "213.9873d119.chunk.js.map": "/BMI/static/js/213.9873d119.chunk.js.map",
+    "732.8b626db9.chunk.js.map": "/BMI/static/js/732.8b626db9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d22d2ad2.css",
-    "static/js/main.b475ac82.js"
+    "static/js/main.03064c60.js"
   ]
 }
