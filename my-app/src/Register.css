@@ -1,0 +1,77 @@
+/* General container styling */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px;
+}
+
+.register-heading {
+    color: #009688; /* Teal color for the heading */
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.register-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.register-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #009688; /* Teal background for the button */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #00796b; /* Darker teal on hover */
+}
+
+.register-message {
+    color: #ff5722; /* Red color for error messages */
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    color: #009688; /* Teal color for the link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Add specific styles for the login link */
+.Link-login {
+    font-weight: bold;
+}
+
+.Link-login:hover {
+    color: #00796b; /* Darker teal on hover for the login link */
+}

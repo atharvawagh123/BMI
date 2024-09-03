@@ -1,0 +1,144 @@
+.suggestion-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.green-theme {
+  background-color: #e7f9e7;
+}
+
+.white-theme {
+  background-color: #ffffff;
+}
+
+.suggestion-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-form .form-group {
+  margin-bottom: 15px;
+}
+
+.suggestion-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.suggestion-form input,
+.suggestion-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.suggestion-form input.error,
+.suggestion-form textarea.error {
+  border-color: red;
+}
+
+.suggestion-form .error-message {
+  color: red;
+  font-size: 0.875em;
+}
+
+.theme-toggle-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.theme-toggle-button:hover {
+  background-color: #45a049;
+}
+.suggestion-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.suggestion-form .form-group {
+  margin-bottom: 20px;
+}
+
+.suggestion-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.suggestion-form input,
+.suggestion-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.suggestion-form input:focus,
+.suggestion-form textarea:focus {
+  border-color: #007bff;
+}
+
+.suggestion-form button {
+  width: 100%;
+  padding: 10px;
+ background-color: #ffffff;
+  color: #008080;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.status-message {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.error {
+  color: red;
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20%, 60% {
+    transform: translateX(-10px);
+  }
+  40%, 80% {
+    transform: translateX(10px);
+  }
+}
